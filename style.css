@@ -74,7 +74,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(214, 124, 56);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -85,10 +85,10 @@ header {
   margin: 16px 16px 16px 20px;
   padding: 14px 34px;
   text-align: center;
-  cursor: pointer;
+  cursor: grab;
 }
 
-button[disabled] {
+button {
   cursor: default;
   background: #c0c7cf;
 }
@@ -115,7 +115,7 @@ button[disabled] {
   border: 2px dashed #c0c7cf;
   border-radius: 6px;
   resize: none;
-  /* overflow: hidden; */
+   overflow: hidden; 
 }
 
 @media (max-width: 690px) {
