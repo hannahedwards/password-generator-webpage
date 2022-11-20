@@ -7,8 +7,13 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
+  password.window.prompt()
+  
+  
 }
+function prompt()
+
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", writePassword); 
+generateBtn.addEventListener( window.prompt('what kind of password'))
