@@ -6,6 +6,6 @@ HTML, CSS, and JavaScript.
 
 # The Webpage:
 Screenshot:
-![Alt text](/Users/hannahedwards/developer/utah/password-generator-webpage/assests/images/Screenshot "Live Webpage")
+![Alt text](./assests/images/Screenshot%202022-11-21%20at%208.36.46%20PM.png "Live Webpage")
 
 Live URL: https://hannahedwards.github.io/password-generator-webpage/
